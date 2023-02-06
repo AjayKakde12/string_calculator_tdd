@@ -6,5 +6,11 @@ module.exports = {
         if(numberString.length === 1) {
             return Number(numberString);
         }
+        const numbers = numberString.split(",");
+        let sum = 0;
+        for(let number of numbers) {
+            sum += Number(number);
+        }
+        return sum;
     }
 }
