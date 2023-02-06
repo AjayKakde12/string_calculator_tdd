@@ -10,6 +10,9 @@ module.exports = {
         const numbers = numberString.split(",");
         let sum = 0;
         for(let number of numbers) {
+            if(number === '') {
+                return "Not Valid";
+            }
             sum += Number(number);
         }
         return sum;
