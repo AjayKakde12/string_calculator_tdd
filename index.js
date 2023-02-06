@@ -4,7 +4,7 @@ module.exports = {
             return 0;
         }
         if(numberString.length === 1) {
-            return numberString;
+            return Number(numberString);
         }
     }
 }
