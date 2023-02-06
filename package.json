@@ -1,0 +1,23 @@
+{
+  "name": "incubutes-string-calculator",
+  "version": "1.0.0",
+  "description": "This project is implemented using TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjayKakde12/string_calculator_tdd.git"
+  },
+  "author": "Ajay Kakde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjayKakde12/string_calculator_tdd/issues"
+  },
+  "homepage": "https://github.com/AjayKakde12/string_calculator_tdd#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
