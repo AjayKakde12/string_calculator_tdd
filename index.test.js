@@ -35,5 +35,8 @@ describe("To calculate addition of numbers in given string", function() {
 
         addition = await stringCalculator("-1,-2,-3");
         expect(addition).to.be.an('error');
+
+        addition = await stringCalculator("100,\n100,100,\n100");
+        expect(addition).to.equals(400);
     })
 })
