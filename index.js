@@ -16,6 +16,7 @@ module.exports = {
         if(numbers[numbers.length - 1] === '') {
             return "Not Valid"
         }
+        console.log(numberString);
         let sum = 0;
         for(let number of numbers) {
             if(number.match(/\d/)) {
