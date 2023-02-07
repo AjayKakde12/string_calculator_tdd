@@ -1,6 +1,6 @@
 module.exports = {
     stringCalculator: async (numberString) => {
-        numberString = numberString.replace(/\n/, ",");
+        numberString = numberString.replaceAll(/\n/g, ",");
         if(numberString.length === 0) {
             return 0;
         }
