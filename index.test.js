@@ -26,5 +26,8 @@ describe("To calculate addition of numbers in given string", function() {
 
         addition = await stringCalculator("//;\n1;2");
         expect(addition).to.equals(3);
+
+        addition = await stringCalculator("//;1;2;3;4\n5");
+        expect(addition).to.equals(15);
     })
 })
